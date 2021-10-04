@@ -204,7 +204,13 @@
             <DesignClass>TDataModule</DesignClass>
         </DCCReference>
         <DCCReference Include="src\services\Services.Pedido.pas">
-            <Form>ProvidersCadastro1</Form>
+            <Form>ServicePedido</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="src\controllers\Controllers.Pedido.pas"/>
+        <DCCReference Include="src\services\Services.Pedido.Item.pas">
+            <Form>ServerPedidoItem</Form>
             <FormType>dfm</FormType>
             <DesignClass>TDataModule</DesignClass>
         </DCCReference>

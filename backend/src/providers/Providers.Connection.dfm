@@ -4,6 +4,7 @@ object ProvidersConnection: TProvidersConnection
   Width = 240
   object FDConnection: TFDConnection
     Params.Strings = (
+      'Database=C:\Projetos\RestBasicoAvancado\backend\banco\REST.FDB'
       'ConnectionDef=REST')
     LoginPrompt = False
     Left = 72

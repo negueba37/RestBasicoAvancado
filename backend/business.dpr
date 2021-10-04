@@ -14,7 +14,9 @@ uses
   Controllers.Produto in 'src\controllers\Controllers.Produto.pas',
   Controllers.Cliente in 'src\controllers\Controllers.Cliente.pas',
   Services.Cliente in 'src\services\Services.Cliente.pas' {ServiceCliente: TDataModule},
-  Services.Pedido in 'src\services\Services.Pedido.pas' {ProvidersCadastro1: TDataModule};
+  Services.Pedido in 'src\services\Services.Pedido.pas' {ServicePedido: TDataModule},
+  Controllers.Pedido in 'src\controllers\Controllers.Pedido.pas',
+  Services.Pedido.Item in 'src\services\Services.Pedido.Item.pas' {ServerPedidoItem: TDataModule};
 
 begin
   THorse
@@ -22,5 +24,6 @@ begin
     .Use(HandleException);
   Controllers.Produto.Registry;
   Controllers.Cliente.Registry;
+  Controllers.Pedido.Registry;
   THorse.Listen(9000);
 end.
