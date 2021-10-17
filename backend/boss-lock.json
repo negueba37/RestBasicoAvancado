@@ -26,6 +26,22 @@
 			"failed": false,
 			"changed": false
 		},
+		"https://github.com/hashload/horse-octet-stream": {
+			"name": "horse-octet-stream",
+			"version": "1.9.5",
+			"hash": "d6f99e77df3c06466741570d88505bae",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		},
+		"https://github.com/viniciussanchez/bcrypt": {
+			"name": "bcrypt",
+			"version": "1.0.5",
+			"hash": "c3e5526f99c34f9eb0696838f74c0e0b",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		},
 		"https://github.com/viniciussanchez/dataset-serialize": {
 			"name": "dataset-serialize",
 			"version": "v2.3.3",
